@@ -5,7 +5,75 @@
   text-align: center;
 }
 
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container-xxl {
+  max-width: 1270px;
+}
+
+.mb-100 {
+  margin-bottom: 100px;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  background: transparent;
+  opacity: 1;
+}
+
+.carousel-indicators .active {
+  width: 16px;
+  height: 16px;
+  background: #fff;
+  margin-top: 2px;
+}
+
+.carousel-caption {
+  bottom: auto;
+}
+
+.carousel-caption p {
+  font-size: calc(54px + 1.5vw);
+}
+
+.title-text::before {
+  content: "";
+  display: inline-block;
+  height: 30px;
+  width: 6px;
+  background: #8A33FD;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+.mt-100 {
+  margin-top: 100px;
+}
+
+.brands-main-block {
+  padding: 98px 7% 96px;
+}
+
+.brands-block a {
+  width: 178px;
+  min-height: 86px;
+}
+
+.brands-title {
+  font-size: 50px;
+}
+
 .logo {
   width: 70px;
   height: 70px;
+}
+
+.brandLogo {
+  width: 180px;
+  height: 90px;
 }
